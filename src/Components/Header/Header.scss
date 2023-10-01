@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    color: #fff;
+    
+    font-size: x-large;
+    flex-direction: column;
+
+    height: 80px;
+    background-color: #00000054;
+
+        .information{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo{
+            height: 60px;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 20px;
+            flex-direction: row;
+
+            .glitch {   
+                color: #fff;
+                animation: glitch 1s linear infinite;
+            }
+            
+            @keyframes glitch {
+                0%, 100% {
+                    text-shadow: -2.5px -2.5px 0 #1f640a, 
+                                    2.5px 2.5px 0 rgb(96, 43, 161);
+                }
+                25% {
+                    text-shadow: 2.5px 2.5px 0 #1f640a, 
+                                    -2.5px -2.5px 0 rgb(96, 43, 161);
+                }
+                50% {
+                    text-shadow: 2.5px -2.5px 0 #1f640a, 
+                                    -2.5px 2.5px 0 rgb(96, 43, 161);
+                }
+                75% {
+                    text-shadow: 2.5px 2.5px 0 #1f640a, 
+                                    2.5px -2.5px 0 rgb(96, 43, 161);
+                }
+            }
+        }
+
+        .buttongruop{
+            display: flex;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: 20px;
+            flex-direction: row;
+            justify-content: flex-end;
+            .button:hover{
+                color: gray;
+            }
+        }
+}

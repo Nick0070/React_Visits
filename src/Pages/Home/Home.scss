@@ -1,0 +1,184 @@
+.home {
+    flex-grow: 1;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+    .left{
+        width: 50%;
+        height: 800px;
+        overflow: hidden;
+
+
+    .avatar {
+        display: flex;
+        padding-top: 80px;
+        padding-left: 80px;
+        flex-direction: row;
+        animation: updown 5s linear infinite;
+            @keyframes updown {
+                0% {
+                    transform: translateY(-20px);
+                }
+                50% {
+                    transform: translateY(20px);
+                }
+                100% {
+                    transform: translateY(-20px);
+                }
+            }
+
+        .ava {
+            padding: 8px;
+            transition-duration: 2000ms;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+
+            &>img {
+                border-radius: 50%;
+                transition-duration: 200ms;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+            }
+
+            &:hover {
+                // width: 350px;
+                // height: 350px;
+                border: 2px solid rgba(255, 255, 255, 0.9);
+
+                &>img {
+                    border: 2px solid rgba(255, 255, 255, 0.9);
+                }
+            }
+        }
+    }
+
+    .text {
+        padding-top: 20px;
+        padding-left: 60px;
+
+        .text2 {
+            font-size: x-large;
+            padding-left: 60px;
+            padding-bottom: 20px;
+        }
+
+        .text3 {
+            font-size: 14px;
+            padding-left: 100px;
+            padding-bottom: 5px;
+        }
+
+        .text4 {
+            font-size: 14px;
+            padding-left: 40px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .button {
+        padding-top: 50px;
+        padding-left: 170px;
+
+
+        .button2 {
+            height: 30px;
+            width:  100px;
+            color: #fff;
+            font-size: small;
+            border-radius: 10px;
+            border-style: double;
+            background: transparent;
+        }
+
+        .button2:hover {
+            color: gray;
+            border-color: gray;
+        }
+
+    }
+
+    }
+
+
+    .right{
+        width: 50%;
+        display: flex;
+        height: 800px;
+        color: #fff;
+        overflow: hidden;
+            .box{
+                width: 400px;
+                display: flex;
+                height: 500px;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 15px;
+                //background: linear-gradient(to right, blue, purple);
+                 background-color: rgba(0, 0, 0, 0.275);
+                .box2{
+                    width: 390px;
+                    display: flex;
+                    height: 490px;
+                    margin-top: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 15px;
+                    flex-direction: column;
+                    background-color: rgba(32, 32, 32, 0.422);
+
+                    .text1{
+                        color: #fff;
+                        font-size: 20px;
+                        padding-top: 20px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+
+                    .box3{
+                        display: flex;
+                        margin-top: 70px;
+                        flex-direction: column;
+                    .boxing{
+                        display: flex;
+
+                        .text2{
+                            display: flex;
+                            color: #fff;
+                            font-size: 17px;
+                            padding-top: 30px;
+                            padding-left: 15px;
+                            flex-direction: row;
+                        }
+                        .textfield{
+                            display: flex;
+                            padding-left: 20px;
+                            height: max-content;
+                            padding-top: 25px;
+                        
+                        }
+                        
+                        .textfield input{
+                            color: #FFF !important;
+
+                        }
+                        }
+                    }
+                    .button2 {
+                        height: 30px;
+                        width:  100px;
+                        color: #fff;
+                        font-size: small;
+                        margin-top: 150px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 10px;
+                        border-style: double;
+                        background: transparent;
+                    }
+                    }
+                }
+            }
+    }
+
+

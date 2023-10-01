@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-color: black;
+  backdrop-filter: blur(5px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../public/Img/bacground.png');
+}
+
+// html, body, #root, #app { 
+//   display: flex;
+//   overflow: scroll;
+//   flex-direction: column;
+//   width: 100%; height: 100%;
+// }
+
+html, body, #root, #app {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
